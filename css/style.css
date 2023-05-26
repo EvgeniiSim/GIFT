@@ -1,0 +1,18 @@
+.block {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: brown;
+    text-align: center;
+
+}
+.block::before {
+    position: absolute;
+    font-size: 700px;
+    color: crimson;
+}
